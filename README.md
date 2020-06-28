@@ -26,14 +26,14 @@ x.head(1) # returns price data of sii on 20200619
 
 For more information, please check the files below.
 
-*api_metrics.ipynb* illustrates how to retrieve clean financial data.
-*api_test.ipynb* illustrates how to download data to local and use the data to realize backtesting.
+[*api_metrics.ipynb*](https://github.com/gary136/twquant/blob/master/api_metrics.ipynb) illustrates how to retrieve clean financial data. 
+[*api_test.ipynb*](https://github.com/gary136/twquant/blob/master/api_test.ipynb) illustrates how to download data to local and use the data to realize backtesting.
 
 ## Note
-Some functions require 'tej.csv' to execute. This csv file is derived and simplified from open data of tej company (can be freely accessed on https://api.tej.com.tw/columndoc.html?subId=14). The purpose of using tej data is to map the industry of each company and to generate average industry PE ratio. An example ready-to-use file can be found on the github of twquant. Although that file is compatible with package, the content is not updated and it's recommended to get your own tej api key and replace the content with the new one. 
+Some functions require 'tej.csv' to execute. This csv file is derived and simplified from open data of [tej companies basic information](https://api.tej.com.tw/columndoc.html?subId=14). The purpose of using tej data is to map the industry of each company and to generate average industry PE ratio. An example ready-to-use file can be found on the [github of twquant](https://github.com/gary136/twquant/blob/master/tej.csv). Although that file is compatible with package, the content is not updated and it's recommended to get your own tej api key and replace the content with the new one. 
 
 ## Disclaimer
-Twquant retrieves data from publicly accessible data. We make no representations or warranties  about the completeness, reliability and accuracy of data. Any action you take on the data via this package is strictly on your own risk. We will not be liable for any losses and connections with the uses of package.
+Twquant retrieves data from publicly accessible source. We make no representations or warranties  about the completeness, reliability and accuracy of data. Any action you take on the data via this package is strictly on your own risk. We will not be liable for any losses and connections with the uses of package.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
